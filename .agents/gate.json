@@ -1,0 +1,7 @@
+{
+    "generate": "",
+    "typecheck": "npm run check",
+    "lint": "",
+    "test": "npm test",
+    "build": ""
+  }
