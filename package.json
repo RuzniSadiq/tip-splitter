@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "type": "module",
     "scripts": {
-      "check": "node --check src/split.js",
-      "test": "node --test"
+        "check": "node --check src/split.js",
+        "test": "node --test --test-reporter=tap"
     }
-  }
+}
