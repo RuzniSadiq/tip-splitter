@@ -9,3 +9,6 @@ test("splits evenly with default 10% tip", () => {
 test("rejects zero people", () => {
   assert.throws(() => splitBill(100, 0));
 });
+test("rounds to cents", () => {
+  assert.equal(splitBill(100, 3), 36.67);
+});
